@@ -13,14 +13,3 @@ var destructivelyRemoveLastKitten = function(name) {
   kittens.pop()
 }
 
-var destructivelyRemoveFirstKitten = function(name) {
-  kittens.shift()
-}
-
-var appendKitten = function(name) {
-  return kittens.concat(name)
-}
-
-var prependKitten = function(name) {
-  return [name, ...kittens]
-}
